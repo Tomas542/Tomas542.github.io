@@ -1,0 +1,198 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.margin_main{
+    margin: 30px;
+}
+div{
+    margin-bottom: 5px;
+}
+nav{
+    background-color: white;
+    height: 50px;
+    position: sticky;
+    top:0.3px;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    border-color: black;
+}
+.nav_links{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    
+}
+.hr_cont{
+    margin: 15px;
+    color: black;
+    background-color: black;
+    height: 1px;
+}
+span{
+    padding: 4px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    font-size: 22.5px;
+    border-radius: 5px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    transition-duration: 140ms;
+}
+a:hover{
+    background-color: rgb(52, 69, 225);
+    color: white;
+    border-radius: 5px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    transition-duration: 140ms;
+}
+.place_of_born{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-start;
+    background-color: black;
+    margin: 0;
+}
+.place_of_born_image{
+    width: 40%;
+}
+.place_of_born_text{
+    color: white;
+    width: 70%;
+    margin: 20px;
+}
+.studies{
+    display: flex;
+    justify-content: center;
+}
+.studies_container{
+    border-radius: 5px;
+    border-color: red;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 12%;
+    margin-right: 12%;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    width: 350px;
+}
+.studies_center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+}
+.studies_span{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    background-color: black;
+    height: 1px;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-start;
+}
+.introduction_section{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-start;
+}
+.introduction_text2{
+    width: 60%;
+    border-width: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(243, 243, 55);
+    padding: 5px;
+}
+.introduction_text1{
+    width: 60%;
+    border-width: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(87, 64, 215);
+    padding: 5px;
+}
+.introduction_section_margin{
+    width: 5%;
+}
+.introduction_img{
+    width: 35%;
+}
+p + a{
+    text-decoration: underline;
+    color: black;
+    padding: 0;
+    font-size: 20px;
+    border-radius: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    transition-duration: 0;
+}
+p + a:hover{
+    color: black;
+    background-color: white;
+    padding: 0;
+    font-size: 20px;
+    border-radius: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    transition-duration: 0;
+}
+p a:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+footer{
+    background-color: rgb(199, 194, 194);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer_contacts{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.footer_cont{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+img + span{
+    color: black;
+}
+a span:hover{
+    color:black;
+}
+.royal{
+    margin-right: 20px;
+}
+.project_cont{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
